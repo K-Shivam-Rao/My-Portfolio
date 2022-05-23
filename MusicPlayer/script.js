@@ -23,8 +23,8 @@ loadSong(songs[songIndex]);
 // Update song details
 function loadSong(song) {
   title.innerText = song;
-  audio.src = `Music/${song}.mp3`;
-  cover.src = `Cover/${song}.jpg`;
+  audio.src = `https://github.com/K-Shivam-Rao/My-Portfolio/raw/main/https://github.com/K-Shivam-Rao/My-Portfolio/raw/main/Music/${song}.mp3`;
+  cover.src = `https://github.com/K-Shivam-Rao/My-Portfolio/raw/main/Cover/${song}.jpg`;
 }
 
 // Play song
