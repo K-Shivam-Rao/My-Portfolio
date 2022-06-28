@@ -23,8 +23,8 @@ loadSong(songs[songIndex]);
 // Update song details
 function loadSong(song) {
   title.innerText = song;
-  audio.src = `https://seehisprofile.infinityfreeapp.com/MusicPlayer/Music/${song}.mp3`;
-  cover.src = `https://seehisprofile.infinityfreeapp.com/MusicPlayer/Cover/${song}.jpg`;
+  audio.src = `/Music/${song}.mp3`;
+  cover.src = `/Cover/${song}.jpg`;
 }
 
 // Play song
