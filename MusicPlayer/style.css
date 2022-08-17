@@ -154,23 +154,6 @@ body h1{
 	background-color: blanchedalmond;
 }
 
-#navigation a{
-	color:var(--mainText);
-	font-family: 'Silkscreen', cursive;
-}
-
-
-#navigation{
-	margin:0;
-	padding: 10px;
-}
-
-#navigation li{
-	display: inline-block;
-	margin-right: 5px;
-	margin-left:5px;
-}
-
 .dots-wrapper{
 	display: flex;
 	padding: 10px 0px;
@@ -200,6 +183,23 @@ body h1{
 	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 
 }
+#navigation a{
+	color:var(--mainText);
+  font-family: 'Silkscreen', cursive;
+}
+
+
+#navigation{
+	margin:0;
+	padding: 10px;
+}
+
+#navigation li{
+	display: inline-block;
+	margin-right: 5px;
+	margin-left:5px;
+}
+
 
 
 #effect{
