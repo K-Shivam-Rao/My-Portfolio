@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 * {
   box-sizing: border-box;
@@ -155,6 +156,7 @@ body h1{
 
 #navigation a{
 	color:var(--mainText);
+	font-family: 'Silkscreen', cursive;
 }
 
 
